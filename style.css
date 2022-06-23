@@ -1,24 +1,39 @@
 .maindiv {
-    background: red;
     vertical-align: top;
     margin: 0 auto;
     display: flex;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1240px;
+}
+#colorleft{
+    background: yellow;
+}
+#colorright{
+    background: gray;
 }
 .div {
     justify-content: center;
     display: flex;
     width: 50%;
 }
-#div {
-    max-height: 500px;
-    height: 100%;
+.divinf{
+    justify-content: left;
+    display: flex;
+    width: 50%;  
 }
 .img{
-    width: 200px;
-    height: 250px;
+    width: 240px;
+    height: 300px;
 }
 .h1{
     font-size: 56px;
+    padding-top: 50px;
+}
+.ul{
+    font-size: 18px;
+}
+.hr {
+    width: 100%;
+    max-width: 1240px;
+    height: 8px;
 }
