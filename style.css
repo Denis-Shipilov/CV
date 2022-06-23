@@ -1,0 +1,24 @@
+.maindiv {
+    background: red;
+    vertical-align: top;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+}
+.div {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+}
+#div {
+    max-height: 500px;
+    height: 100%;
+}
+.img{
+    width: 200px;
+    height: 250px;
+}
+.h1{
+    font-size: 56px;
+}
