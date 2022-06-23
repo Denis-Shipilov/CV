@@ -8,21 +8,20 @@
 .header {
     vertical-align: top;
     margin: 0 auto;
-    display: flex;
     position: relative;
-    width: 100%;
     max-width: 1240px;
 }
 .nav {
-        
-        list-style: none;
         background: orange;
-        overflow: hidden;
-        padding-left: 30px;
-        padding-top: 10px;
         width: 100%;
         height: 100px;
         border-radius: 50px 50px 0px 0px;
+}
+.navul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 10px;
 }
 .a1 {
     color: black;
@@ -35,7 +34,7 @@
     background: yellow;
 }
 .color2{
-    background: gray;
+    background: rgb(199, 192, 192);
 }
 .div {
     justify-content: center;
@@ -63,6 +62,7 @@
     width: 100%;
     max-width: 1240px;
     height: 8px;
+    background: orange;
 }
 #h2{
     font-size: 50px;
@@ -73,4 +73,29 @@ padding-top: 50px;
 }
 .skill {
     padding-top: 40px;
+}
+.footer {
+    vertical-align: top;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    background: orange;
+    border-radius: 0px 0px 50px 50px;
+}
+.bac {
+    padding-left: 90px;
+}
+.vk {
+    padding-left: 450px;
+}
+.imgfot {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+.h4 {
+    font-size: 30px;
+   padding-left: 430px;
 }
